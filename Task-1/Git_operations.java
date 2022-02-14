@@ -11,8 +11,9 @@ public class Git_operations {
 		       String new_str = str.replaceAll("fox", "cat");
 		      
 		        // Display the strings for comparison.
-		       System.out.println("Original string: " + str);
-		       System.out.println("New String: " + new_str);
+	
+		       System.out.println("Original string: " + str); // Display the Original string.
+		       System.out.println("New String: " + new_str); // Display the New string
 			}
 
 	}
