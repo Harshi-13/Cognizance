@@ -12,7 +12,6 @@ public class Git_operations {
 		      
 		        // Display the strings for comparison.
 		       System.out.println("Original string: " + str);
-		       System.out.println("New String: " + new_str);
 			}
 
 	}
