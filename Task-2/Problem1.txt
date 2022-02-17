@@ -1,0 +1,15 @@
+This program will allow user to find whether a number is divisible by 3 with a response as "true" or "false"
+
+Divisor = 0
+temp1 = 0
+temp2 = 0
+myNumber = INPUT "Enter the number you wish to find divisibility by 3"
+DO 
+	myNumber = myNumber - 3
+UNTIL ( myNumber = 0 or myNumber = 1 or myNumber = 2 )
+
+IF (myNumber = 0)
+	OUTPUT "TRUE"
+ELSE 
+	OUTPUT "FALSE"
+END IF
