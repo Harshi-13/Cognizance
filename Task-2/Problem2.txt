@@ -1,0 +1,32 @@
+This program allows the user to find the Nth number of the fibonacci series.
+
+Firstno = 0
+Secondno = 1
+counter = 0
+Temp_Sum = 0
+Result = 0
+
+Nth_num = INPUT("What is the Nth number of the fibonacci series, that you want to know ?")
+Result = fibonacci ( Nth_num )
+OUTPUT ("Nth number of the fibonacci series is")
+OUTPUT (Result)
+ 
+	          
+FUNCTION fibonacci(Nth_num)
+	IF (Nth_num = 0)
+		return Firstno
+	END IF
+
+	IF (Nth_num = 1)
+	      return Secondno
+	END IF
+
+	FOR ( counter = 2 to Nth_num )
+	         Temp_Sum = Firstno + Secondno
+	         Firstno = Secondno
+	         Secondno = Temp_Sum
+	END FOR
+	RETURN Secondno
+
+End FUNCTION
+
