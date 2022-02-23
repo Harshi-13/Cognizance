@@ -5,7 +5,7 @@ def printstarpyramind(row):
     # First for creating spaces
     H = row - 1
 
-    # Second;y create outer loop for the number of rows
+    # Second,y create outer loop for the number of rows
     for i in range(0, row):
 
         # Then create inner loop to give the spaces
