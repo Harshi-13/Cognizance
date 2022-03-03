@@ -1,7 +1,7 @@
 <!-- Headings -->
 # *Leisurious*
 <!-- Images -->
-![Landing_Page]("D:\github\picture\Landing_Page.jpg")
+![Landing_Page]("https://github.com/Harshi-13/Cognizance/blob/main/Task-3/Landing%20page.png")
 
 ### Theme :
 Is a platform that allows users to access all their curated kinds of entertainment in one place. Which has webtoons (digital comics), books, and Asian TV shows!
