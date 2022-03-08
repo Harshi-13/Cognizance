@@ -1,0 +1,10 @@
+import numpy as np
+a = np.array([8,2,3,2,3,8,3,9,6])
+b = np.array([2,2,2,7,4,2,4,9,8])
+print (np.where(a==b))
+a = np.array([1,2,3,4,5,6,7,8,9,10])
+b = np.array([8,1,10,2,7,4,10,3,1,1])
+print(np.where(a == b))
+a=np.array(['amrita','vishwa','vidhyapeedam','chennai'])
+b=np.array(['amrita','vishwa','vidhyapeedam','coimbatore'])
+print(np.where(a == b))
