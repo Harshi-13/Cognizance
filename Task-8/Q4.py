@@ -1,0 +1,10 @@
+import pandas as pd
+print("Enter the sentence")
+sentence1 = input()
+sentence2 = sentence1.split()
+print("My input")
+print(sentence2)
+sentence3 = pd.Series(sentence2)
+result = sentence3.map(lambda x: x[0].upper() + x[1:-1] + x[-1])
+print("My Output")
+print(*result)
